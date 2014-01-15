@@ -6,14 +6,18 @@ fi
 
 export LSCOLORS="exfxcxdxbxegedabagacad"
 export CLICOLOR=true
+export DISABLE_LS_COLORS=true
 
-fpath=($ZSH/functions $fpath)
+fpath=($DOTFILES/functions $fpath)
 
-autoload -U $ZSH/functions/*(:t)
+autoload -U $DOTFILES/functions/*(:t)
 
 HISTFILE=~/.zsh_history
 HISTSIZE=10000
 SAVEHIST=10000
+
+ZSH_THEME="robbyrussell"
+plugins=(git sublime)
 
 setopt NO_BG_NICE # don't nice background tasks
 setopt NO_HUP
@@ -36,6 +40,8 @@ setopt HIST_REDUCE_BLANKS
 # don't expand aliases _before_ completion has finished
 #   like: git comm-[tab]
 setopt complete_aliases
+
+source $ZSH/oh-my-zsh.sh
 
 zle -N newtab
 
