@@ -7,6 +7,7 @@ fi
 export LSCOLORS="exfxcxdxbxegedabagacad"
 export CLICOLOR=true
 export DISABLE_LS_COLORS=true
+export DISABLE_AUTO_UPDATE=true
 
 fpath=($DOTFILES/functions $fpath)
 
@@ -17,7 +18,7 @@ HISTSIZE=10000
 SAVEHIST=10000
 
 ZSH_THEME="robbyrussell"
-plugins=(git sublime)
+plugins=(git sublime brew terminalapp osx)
 
 setopt NO_BG_NICE # don't nice background tasks
 setopt NO_HUP
@@ -42,6 +43,9 @@ setopt HIST_REDUCE_BLANKS
 setopt complete_aliases
 
 source $ZSH/oh-my-zsh.sh
+
+# disable autocorrect
+unsetopt correct_all
 
 zle -N newtab
 
