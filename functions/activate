@@ -1,0 +1,5 @@
+# Usage: activate
+# Description: activate the virtualenv (given it's was created venv directory)
+activate () {
+    source venv/bin/activate
+}
