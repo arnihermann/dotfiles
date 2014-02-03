@@ -1,5 +1,6 @@
 {
   "close_windows_when_empty": false,
+  "color_scheme": "Packages/User/Tomorrow-Night (SL).tmTheme",
   "draw_white_space": "all",
   "ensure_newline_at_eof_on_save": true,
   "find_selected_text": true,
@@ -7,13 +8,21 @@
   "font_size": 14.0,
   "highlight_line": true,
   "highlight_modified_tabs": true,
+  "ignored_packages":
+  [
+    "Vintage"
+  ],
   "matchBracketsAngle": true,
   "matchBracketsBraces": true,
   "matchBracketsSquare": true,
-  "rulers": [ 100 ],
+  "rulers":
+  [
+    100
+  ],
   "scroll_past_end": true,
   "shift_tab_unindent": true,
   "show_minimap": false,
+  "sublimelinter": true,
   "tab_size": 2,
   "theme": "Soda Dark.sublime-theme",
   "translate_tabs_to_spaces": true,

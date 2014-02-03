@@ -4,7 +4,7 @@ set -x
 
 # symlink settings in
 sublime_dir=~/Library/Application\ Support/Sublime\ Text\ 3/Packages
-mv "$sublime_dir/User" "$sublime_dir/User.backup.$(date +"%Y-%m-%d")"
+mv "$sublime_dir/User" "$sublime_dir/User.backup.$(date +"%Y-%m-%d %H:%M")"
 rm -rf "$sublime_dir/User"
 cp -R $DOTFILES/sublime3/User ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
 
