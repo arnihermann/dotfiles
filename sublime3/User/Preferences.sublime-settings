@@ -1,8 +1,9 @@
 {
   "close_windows_when_empty": false,
-  "color_scheme": "Packages/User/Tomorrow-Night (SL).tmTheme",
+  "color_scheme": "Packages/Theme - QuizUP/QuizUp.tmTheme",
   "draw_white_space": "all",
   "ensure_newline_at_eof_on_save": true,
+  "file_exclude_patterns": ["*.pyc"],
   "find_selected_text": true,
   "font_face": "Source Code Pro",
   "font_size": 14.0,
