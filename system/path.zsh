@@ -9,3 +9,5 @@ export PATH="node_modules/.bin:$PATH"
 export MANPATH="/usr/local/man:/usr/local/mysql/man:/usr/local/git/man:$MANPATH"
 
 export PATH=$HOME/.cabal/bin:$PATH
+
+export PATH=/usr/texbin:$PATH
