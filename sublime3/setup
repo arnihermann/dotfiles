@@ -12,3 +12,5 @@ cp -R $DOTFILES/sublime3/User ~/Library/Application\ Support/Sublime\ Text\ 3/Pa
 cd "$sublime_dir"
 git clone https://github.com/buymeasoda/soda-theme/ "Theme - Soda"
 git clone git@github.com:keepitcomplicated/sublime-text-settings.git "Theme - QuizUP"
+
+git clone git@github.com:chriskempson/base16-textmate.git "Theme - base16"

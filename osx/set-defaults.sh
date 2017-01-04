@@ -43,3 +43,14 @@ defaults write NSGlobalDomain WebKitDeveloperExtras -bool true
 
 mkdir -p ~/Library/KeyBindings
 printf '{\n"~ " = ("insertText:", " ");\n}\n' > ~/Library/KeyBindings/DefaultKeyBinding.dict
+
+# animation speed
+# defaults write NSGlobalDomain NSWindowResizeTime -float 0.001
+# defaults write NSGlobalDomain NSAutomaticWindowAnimationsEnabled -bool false
+# defaults write com.apple.dock springboard-show-duration -int 0
+# defaults write com.apple.dock springboard-hide-duration -int 0
+# defaults write com.apple.dock expose-animation-duration -float 0.02
+# defaults write com.apple.dock workspaces-edge-delay -float 0.1
+
+# keep quicklook in front
+# defaults write com.apple.Finder QLHidePanelOnDeactivate 0

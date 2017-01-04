@@ -3,6 +3,7 @@ export CLICOLOR=true
 export DISABLE_LS_COLORS=true
 export DISABLE_AUTO_UPDATE=true
 export LANG=is_IS.UTF-8
+export LC_ALL=is_IS.UTF-8
 
 fpath=($DOTFILES/functions $fpath)
 
