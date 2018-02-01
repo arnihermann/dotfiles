@@ -52,3 +52,6 @@ bindkey '^[[5C' end-of-line
 bindkey '^[[3~' delete-char
 bindkey '^[^N' newtab
 bindkey '^?' backward-delete-char
+
+# git-subrepo
+source /Users/arnihermann/Code/ingydotnet/git-subrepo/.rc

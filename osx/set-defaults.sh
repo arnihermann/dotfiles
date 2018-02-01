@@ -20,6 +20,7 @@ defaults write com.apple.Finder FXPreferredViewStyle Nlsv
 chflags nohidden ~/Library
 
 # Set a really fast key repeat.
+#defaults write -g InitialKeyRepeat -int 10
 defaults write NSGlobalDomain KeyRepeat -int 1
 
 # Set the Finder prefs for showing a few different volumes on the Desktop.
@@ -54,3 +55,7 @@ printf '{\n"~ " = ("insertText:", " ");\n}\n' > ~/Library/KeyBindings/DefaultKey
 
 # keep quicklook in front
 # defaults write com.apple.Finder QLHidePanelOnDeactivate 0
+
+defaults write com.apple.screencapture location ~/Downloads/
+
+defaults write com.apple.finder CreateDesktop false
