@@ -56,6 +56,6 @@ printf '{\n"~ " = ("insertText:", " ");\n}\n' > ~/Library/KeyBindings/DefaultKey
 # keep quicklook in front
 # defaults write com.apple.Finder QLHidePanelOnDeactivate 0
 
-defaults write com.apple.screencapture location ~/Downloads/
+defaults write com.apple.screencapture location ~/Screenshots/
 
 defaults write com.apple.finder CreateDesktop false
